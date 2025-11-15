@@ -66,16 +66,3 @@ Includes:
 Prices scale with the mode selected by the agent.
 
 ---
-
-## API Endpoints
-
-### 1. `POST /plan_trip`
-Generates a full itinerary.
-```json
-{
-  "user_id": "u1",
-  "destination": "Paris",
-  "days": 3,
-  "interests": "history, food",
-  "max_budget": 60000
-}
